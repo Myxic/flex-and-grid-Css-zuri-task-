@@ -67,6 +67,41 @@
             grid-row-end: 5;   
           
         }
+        a{
+            text-decoration: none;
+            border: 1px solid white;
+            position:fixed;
+            bottom:20%;
+            right: 50%;
+            color: white;
+            border-radius: 50px;
+            padding: 30px ;
+            background-color: red;
+          
+        }
+        @media (max-width:600px) {
+            body{
+                max-width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            .grid-containter{
+                width: 90%;
+                margin: auto;
+            }
+            a{
+                color: wheat;
+                text-shadow: 1px blue;
+            }
+            a:hover{
+            background: rgb(26, 134, 148);
+            color: white;
+            border: 2px solid rgb(27, 108, 146);
+            padding: 25px;
+            box-shadow: 0px 0px 15px 0px rgb(27, 108, 146);
+        }
+            
+        }
     </style>
 </head>
 <body>
@@ -77,5 +112,8 @@
         <div class="blue"></div>
         <div class="blue1"></div>
     </div>
+    
+    <a href="index.html">index page</a>
+    
 </body>
 </html>
